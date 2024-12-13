@@ -1,0 +1,730 @@
+17:52:44.807 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Please enter a search term
+17:56:44.193 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ошибка: 404
+17:59:00.700 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Please enter a search term
+18:46:42.920 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Enter search query / Введите поисковый запрос
+19:09:06.930 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Введите поисковый запрос
+19:51:26.368 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Network error: timeout
+java.net.SocketTimeoutException: timeout
+	at okhttp3.internal.http2.Http2Stream$StreamTimeout.newTimeoutException(Http2Stream.java:678) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http2.Http2Stream$StreamTimeout.exitAndThrowIfTimedOut(Http2Stream.java:686) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http2.Http2Stream.takeHeaders(Http2Stream.java:154) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http2.Http2ExchangeCodec.readResponseHeaders(Http2ExchangeCodec.java:136) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.Exchange.readResponseHeaders(Exchange.java:115) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:94) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:43) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[okhttp-3.14.9.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+19:51:34.900 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Network error: timeout
+19:57:57.230 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Network error: Unexpected response code for CONNECT: 502
+java.io.IOException: Unexpected response code for CONNECT: 502
+	at okhttp3.internal.connection.RealConnection.createTunnel(RealConnection.java:427) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RealConnection.connectTunnel(RealConnection.java:236) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:177) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:224) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.Transmitter.newExchange(Transmitter.java:169) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[okhttp-3.14.9.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+19:58:42.955 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Network error: Unexpected response code for CONNECT: 502
+20:13:56.351 [JavaFX Application Thread] ERROR com.starwars.swapij.SearchTranslate - Failed to load translations
+java.lang.NullPointerException: null
+	at java.util.Objects.requireNonNull(Objects.java:233) ~[?:?]
+	at com.starwars.swapij.SearchTranslate.loadTranslations(TranslationService.java:30) ~[swapij-1.0.jar:?]
+	at com.starwars.swapij.SearchTranslate.<clinit>(TranslationService.java:25) ~[swapij-1.0.jar:?]
+	at com.starwars.swapij.MainView.showDictionary(MainView.java:86) ~[swapij-1.0.jar:?]
+	at com.starwars.swapij.MainView.lambda$new$1(MainView.java:46) ~[swapij-1.0.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8875) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-21-mac-aarch64.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207) ~[javafx-controls-21-mac-aarch64.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3984) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1890) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:551) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.glass.ui.mac.MacView.notifyMouse(MacView.java:127) [javafx-graphics-21-mac-aarch64.jar:?]
+20:15:01.938 [JavaFX Application Thread] ERROR com.starwars.swapij.SearchTranslate - Failed to load translations
+java.lang.NullPointerException: null
+	at java.util.Objects.requireNonNull(Objects.java:233) ~[?:?]
+	at com.starwars.swapij.SearchTranslate.loadTranslations(TranslationService.java:30) ~[swapij-1.0.jar:?]
+	at com.starwars.swapij.SearchTranslate.<clinit>(TranslationService.java:25) ~[swapij-1.0.jar:?]
+	at com.starwars.swapij.MainView.showDictionary(MainView.java:86) ~[swapij-1.0.jar:?]
+	at com.starwars.swapij.MainView.lambda$new$1(MainView.java:46) ~[swapij-1.0.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8875) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-21-mac-aarch64.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207) ~[javafx-controls-21-mac-aarch64.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3984) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1890) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:551) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.glass.ui.mac.MacView.notifyMouse(MacView.java:127) [javafx-graphics-21-mac-aarch64.jar:?]
+20:15:42.124 [JavaFX Application Thread] INFO  com.starwars.swapij.SearchTranslate - Translations loaded successfully
+20:16:00.499 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Введите поисковый запрос
+20:20:01.804 [JavaFX Application Thread] INFO  com.starwars.swapij.SearchTranslate - Translations loaded successfully
+20:20:14.527 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+20:20:47.497 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+20:23:08.776 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+21:06:32.507 [JavaFX Application Thread] INFO  com.starwars.swapij.Translator - UI translations loaded successfully
+21:09:30.690 [JavaFX Application Thread] INFO  com.starwars.swapij.Translator - UI translations loaded successfully
+21:11:05.555 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+21:11:09.716 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Ничего не найдено
+21:11:19.049 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+21:11:20.340 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Ничего не найдено
+21:17:21.552 [JavaFX Application Thread] INFO  com.starwars.swapij.Translator - UI translations loaded successfully
+21:17:32.303 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ошибка сети: Unexpected response code for CONNECT: 502
+java.io.IOException: Unexpected response code for CONNECT: 502
+	at okhttp3.internal.connection.RealConnection.createTunnel(RealConnection.java:427) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RealConnection.connectTunnel(RealConnection.java:236) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:177) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:224) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.Transmitter.newExchange(Transmitter.java:169) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[okhttp-3.14.9.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+21:17:36.729 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Ошибка сети: Unexpected response code for CONNECT: 502
+21:20:54.781 [JavaFX Application Thread] INFO  com.starwars.swapij.Translator - UI translations loaded successfully
+21:22:00.719 [JavaFX Application Thread] INFO  com.starwars.swapij.Translator - UI translations loaded successfully
+21:22:05.970 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ошибка сети: Unexpected response code for CONNECT: 502
+java.io.IOException: Unexpected response code for CONNECT: 502
+	at okhttp3.internal.connection.RealConnection.createTunnel(RealConnection.java:427) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RealConnection.connectTunnel(RealConnection.java:236) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:177) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:224) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.Transmitter.newExchange(Transmitter.java:169) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[okhttp-3.14.9.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+21:22:11.584 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Ошибка сети: Unexpected response code for CONNECT: 502
+21:23:04.118 [JavaFX Application Thread] INFO  com.starwars.swapij.Translator - UI translations loaded successfully
+21:23:12.328 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Введите поисковый запрос!
+21:38:39.428 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ошибка сети: Unexpected response code for CONNECT: 502
+java.io.IOException: Unexpected response code for CONNECT: 502
+	at okhttp3.internal.connection.RealConnection.createTunnel(RealConnection.java:427) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RealConnection.connectTunnel(RealConnection.java:236) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:177) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:224) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.Transmitter.newExchange(Transmitter.java:169) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[okhttp-3.14.9.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+21:38:40.744 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Ошибка сети: Unexpected response code for CONNECT: 502
+21:38:43.451 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ошибка сети: Unexpected response code for CONNECT: 502
+java.io.IOException: Unexpected response code for CONNECT: 502
+	at okhttp3.internal.connection.RealConnection.createTunnel(RealConnection.java:427) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RealConnection.connectTunnel(RealConnection.java:236) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:177) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:224) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.Transmitter.newExchange(Transmitter.java:169) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[okhttp-3.14.9.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+21:38:44.422 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Ошибка сети: Unexpected response code for CONNECT: 502
+21:38:46.888 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+21:38:48.119 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Ничего не найдено
+21:38:50.373 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+21:38:51.809 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Ничего не найдено
+21:40:41.909 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Введите поисковый запрос!
+21:40:43.624 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+21:40:44.711 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Ничего не найдено
+21:58:14.344 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+21:58:15.218 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Ничего не найдено
+21:58:21.004 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+21:58:21.992 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Ничего не найдено
+21:58:26.511 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+21:58:27.410 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Ничего не найдено
+21:58:31.306 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+21:58:32.101 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Ничего не найдено
+22:00:19.673 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+22:00:20.989 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Ничего не найдено
+22:04:02.504 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ошибка сети: Unexpected response code for CONNECT: 502
+java.io.IOException: Unexpected response code for CONNECT: 502
+	at okhttp3.internal.connection.RealConnection.createTunnel(RealConnection.java:427) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RealConnection.connectTunnel(RealConnection.java:236) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:177) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:224) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.Transmitter.newExchange(Transmitter.java:169) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[okhttp-3.14.9.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+22:06:03.815 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+22:06:07.364 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+22:07:00.932 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+22:11:45.264 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+22:12:03.076 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+22:12:05.513 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+22:12:13.787 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+22:12:15.476 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+22:13:50.354 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+22:31:33.127 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+22:31:37.646 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+22:31:48.683 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+22:31:49.906 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+22:31:52.534 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:42:41.638 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ошибка сети: Unexpected response code for CONNECT: 502
+java.io.IOException: Unexpected response code for CONNECT: 502
+	at okhttp3.internal.connection.RealConnection.createTunnel(RealConnection.java:427) ~[swapij-0.1.0-all.jar:?]
+	at okhttp3.internal.connection.RealConnection.connectTunnel(RealConnection.java:236) ~[swapij-0.1.0-all.jar:?]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:177) ~[swapij-0.1.0-all.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:224) ~[swapij-0.1.0-all.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108) ~[swapij-0.1.0-all.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88) ~[swapij-0.1.0-all.jar:?]
+	at okhttp3.internal.connection.Transmitter.newExchange(Transmitter.java:169) ~[swapij-0.1.0-all.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41) ~[swapij-0.1.0-all.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[swapij-0.1.0-all.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[swapij-0.1.0-all.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94) ~[swapij-0.1.0-all.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[swapij-0.1.0-all.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[swapij-0.1.0-all.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[swapij-0.1.0-all.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[swapij-0.1.0-all.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88) ~[swapij-0.1.0-all.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[swapij-0.1.0-all.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[swapij-0.1.0-all.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[swapij-0.1.0-all.jar:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172) ~[swapij-0.1.0-all.jar:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[swapij-0.1.0-all.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+23:42:43.909 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:42:45.527 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:42:48.653 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:43:00.220 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:43:03.107 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:43:13.323 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:43:17.581 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:43:18.203 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:43:18.917 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:43:19.067 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:43:19.399 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:43:52.033 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:43:52.909 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:43:59.381 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:49:29.336 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:49:35.374 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:52:01.944 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:52:06.968 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:52:27.945 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:52:36.538 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:52:53.406 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:52:57.386 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:53:13.280 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:53:14.335 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:53:38.736 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:53:40.082 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:53:56.193 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:54:00.012 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:54:22.995 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:54:31.334 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:54:43.665 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:54:44.669 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:55:01.459 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:55:27.735 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:55:56.451 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:55:59.499 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:56:02.602 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:56:03.773 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:57:36.849 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:59:43.057 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+00:02:58.795 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+00:03:00.993 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+00:11:26.179 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+00:11:29.184 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+00:11:29.807 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+00:11:30.385 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+00:11:30.385 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+00:11:30.617 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+00:11:30.793 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+00:11:31.202 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+00:11:31.202 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+00:12:08.479 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Введите поисковый запрос!
+00:16:06.873 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+00:17:01.631 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ошибка сети: timeout
+java.net.SocketTimeoutException: timeout
+	at okhttp3.internal.http2.Http2Stream$StreamTimeout.newTimeoutException(Http2Stream.java:678) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http2.Http2Stream$StreamTimeout.exitAndThrowIfTimedOut(Http2Stream.java:686) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http2.Http2Stream.takeHeaders(Http2Stream.java:154) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http2.Http2ExchangeCodec.readResponseHeaders(Http2ExchangeCodec.java:136) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.Exchange.readResponseHeaders(Exchange.java:115) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:94) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:43) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[okhttp-3.14.9.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+00:17:04.227 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ошибка сети: timeout
+java.net.SocketTimeoutException: timeout
+	at okhttp3.internal.http2.Http2Stream$StreamTimeout.newTimeoutException(Http2Stream.java:678) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http2.Http2Stream$StreamTimeout.exitAndThrowIfTimedOut(Http2Stream.java:686) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http2.Http2Stream.takeHeaders(Http2Stream.java:154) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http2.Http2ExchangeCodec.readResponseHeaders(Http2ExchangeCodec.java:136) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.Exchange.readResponseHeaders(Exchange.java:115) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:94) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:43) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[okhttp-3.14.9.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+00:17:53.818 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Введите поисковый запрос!
+00:17:55.340 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - swapi.dev: nodename nor servname provided, or not known
+java.net.UnknownHostException: swapi.dev: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52) ~[?:?]
+	at java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211) ~[?:?]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828) ~[?:?]
+	at java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1688) ~[?:?]
+	at okhttp3.Dns.lambda$static$0(Dns.java:39) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:171) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:135) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:187) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.Transmitter.newExchange(Transmitter.java:169) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[okhttp-3.14.9.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+00:17:57.911 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - swapi.dev
+java.net.UnknownHostException: swapi.dev
+	at java.net.InetAddress$CachedLookup.get(InetAddress.java:988) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1688) ~[?:?]
+	at okhttp3.Dns.lambda$static$0(Dns.java:39) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:171) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:135) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:187) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.Transmitter.newExchange(Transmitter.java:169) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[okhttp-3.14.9.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+00:17:58.790 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - swapi.dev
+java.net.UnknownHostException: swapi.dev
+	at java.net.InetAddress$CachedLookup.get(InetAddress.java:988) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1688) ~[?:?]
+	at okhttp3.Dns.lambda$static$0(Dns.java:39) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:171) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:135) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:187) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.Transmitter.newExchange(Transmitter.java:169) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[okhttp-3.14.9.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+00:18:39.484 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Введите поисковый запрос!
+00:18:40.604 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - проблема с сетью: swapi.dev: nodename nor servname provided, or not known
+java.net.UnknownHostException: swapi.dev: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52) ~[?:?]
+	at java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211) ~[?:?]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828) ~[?:?]
+	at java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1688) ~[?:?]
+	at okhttp3.Dns.lambda$static$0(Dns.java:39) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:171) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:135) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:187) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.Transmitter.newExchange(Transmitter.java:169) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[okhttp-3.14.9.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+00:18:42.020 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - проблема с сетью: swapi.dev
+java.net.UnknownHostException: swapi.dev
+	at java.net.InetAddress$CachedLookup.get(InetAddress.java:988) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1688) ~[?:?]
+	at okhttp3.Dns.lambda$static$0(Dns.java:39) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:171) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:135) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:187) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.Transmitter.newExchange(Transmitter.java:169) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[okhttp-3.14.9.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+00:18:43.033 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - проблема с сетью: swapi.dev
+java.net.UnknownHostException: swapi.dev
+	at java.net.InetAddress$CachedLookup.get(InetAddress.java:988) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1688) ~[?:?]
+	at okhttp3.Dns.lambda$static$0(Dns.java:39) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:171) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:135) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:187) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.Transmitter.newExchange(Transmitter.java:169) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[okhttp-3.14.9.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+00:18:44.293 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - проблема с сетью: swapi.dev
+java.net.UnknownHostException: swapi.dev
+	at java.net.InetAddress$CachedLookup.get(InetAddress.java:988) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1688) ~[?:?]
+	at okhttp3.Dns.lambda$static$0(Dns.java:39) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:171) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:135) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:187) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.Transmitter.newExchange(Transmitter.java:169) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[okhttp-3.14.9.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+00:18:51.062 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - проблема с сетью: swapi.dev: nodename nor servname provided, or not known
+java.net.UnknownHostException: swapi.dev: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52) ~[?:?]
+	at java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211) ~[?:?]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828) ~[?:?]
+	at java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1688) ~[?:?]
+	at okhttp3.Dns.lambda$static$0(Dns.java:39) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:171) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:135) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:187) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.Transmitter.newExchange(Transmitter.java:169) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172) ~[okhttp-3.14.9.jar:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[okhttp-3.14.9.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+00:19:16.549 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+00:19:45.253 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+00:22:59.902 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Введите поисковый запрос!
+01:08:35.140 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
