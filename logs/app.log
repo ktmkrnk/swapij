@@ -728,3 +728,7 @@ java.net.UnknownHostException: swapi.dev: nodename nor servname provided, or not
 00:19:45.253 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
 00:22:59.902 [JavaFX Application Thread] ERROR com.starwars.swapij.MainView - Введите поисковый запрос!
 01:08:35.140 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:45:39.361 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:45:44.833 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:45:48.895 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
+23:45:52.820 [OkHttp https://swapi.dev/...] ERROR com.starwars.swapij.SwapiService - Ничего не найдено
