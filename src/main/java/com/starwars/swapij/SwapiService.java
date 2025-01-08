@@ -24,7 +24,7 @@ public class SwapiService {
      */
     public SwapiService() {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://swapi.dev/api/")
+                .baseUrl("https://swapi.py4e.com/api/")
                 .addConverterFactory(GsonConverterFactory.create(new Gson()))
                 .build();
 
